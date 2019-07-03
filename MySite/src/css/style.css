@@ -1,0 +1,20 @@
+img{
+    width: 40%;
+    border: 6px solid black;
+    
+}
+p{
+    font-size: 50px;
+}
+body{
+    background-image: url(../img/fon.jpg);
+    background-attachment: fixed;
+    background-position: 60%;
+}
+.clearfix{
+    clear: both;
+}
+.divimg{
+    text-align: center;
+}
+/* https://www.flaticon.com/*/
