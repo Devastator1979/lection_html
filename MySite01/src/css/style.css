@@ -84,3 +84,18 @@ li {
 .menu li:hover>ul{
     display: block;
 }
+.block{
+    height: 200px;
+    background: #454547;
+    color: white;
+    overflow: hidden;
+    position: absolute;
+}
+.block1{
+    height: 100px;
+    width: 200px;
+    background: red;
+    position: relative; 
+    top: 50px;
+    left 100px;
+}
