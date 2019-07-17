@@ -73,6 +73,7 @@ li {
     top: 15px;
     left: 12px;
     font-size: 18px;
+    
 }
 
 .menu li a:hover {
@@ -89,13 +90,41 @@ li {
     background: #454547;
     color: white;
     overflow: hidden;
-    position: absolute;
+    /*position: absolute;*/
 }
 .block1{
     height: 100px;
     width: 200px;
     background: red;
-    position: relative; 
+    /*position: relative;*/ 
     top: 50px;
-    left 100px;
+    left: 100px;
+}
+.block2{
+    height: 100px;
+    width: 200px;
+    background: yellow;
+    position: absolute;
+    left: 50%;
+    margin-left: -100;
+    border-radius: 30px;
+    top: 50%;
+    top: 100px;
+}
+.block3{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    border: 1px solid blue;
+    left: 50%;
+    margin-left: -300;
+    border-radius: 150px;
+    top: 50%;
+    top: 150px;
+    z-index: 1;
+
+}
+.ppp{
+    height: 1000px;
+    color: rgb(115, 194, 25);
 }
